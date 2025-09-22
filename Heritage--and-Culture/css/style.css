@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+margin: 0px;
+padding: 0px;
+}
+
+#container{
+
+    background: linear-gradient(rgba(255, 255, 153, 0.6),rgba(255, 255, 153, 0.895)), url('../images/india2.jpg');
+width: 100%;
+min-height:100vh;
+background-size: cover;
+background-attachment: fixed;
+}
+#sidemenu{
+    position: fixed;
+    z-index: 99;
+    top: 27%;
+    left: 0px; 
+   
+}
+#sidemenu li{
+border-radius: 100% !important;
+margin: 10px 0px; 
+width: 60px;
+height: 60px;
+text-align: center;
+line-height: 45px;
+margin-left: 20px;
+list-style: none;
+background: rgb(105, 105, 50);
+
+}
+#sidemenu li:hover{
+  background-color: gray;
+}
+#sidemenu li a{
+    font-size: larger;
+  color: black;
+}
+
+ #header{
+    width: 100%;
+    height: 150px;
+  
+    border-radius: 20px;
+   background: linear-gradient(rgba(192, 128, 64, 0.4),rgba(182, 114, 47, 0.5));
+  
+   display: flex;
+   border: 2px solid red;
+}
+ #header .main{
+    width: 88%;
+    height: 150px;
+    line-height: 80px;
+    float: left;
+    border: 2px solid blue;
+    float: right;
+    display: flex;
+
+}
+#container #header .icon{
+    width:12%;
+    height: 150px;
+    margin: 0px,0px,;
+    border: 2px solid green;
+}
+#container #header .icon img{
+    border-radius: 100%;
+    margin: 10px ,10px;
+}
+#container #header .main .title{
+    width:30%;
+    line-height: 10px;
+border: 2px solid yellow;
+height:100px ;
+margin: 25px;
+}
+#container #header .main .title h1{
+ font-family: "Great Vibes", cursive ;  
+ font-size: 70px;
+ color: rgb(6, 32, 43, 0.9);
+ line-height: 78px;
+ font-weight: bold;
+}
+#container #header .main .title h1 span{
+   font-family: "Great Vibes", cursive ;  
+ font-size: 30px;
+ color: rgb(6, 32, 43, 0.9);
+position: absolute;
+top: 70px;
+right: 950px;
+float: right;
+
+}
+#header .main .menu{
+width:58%;
+border: 2px solid yellow;
+height:100px ;
+text-align: center;
+margin: 25px;
+}
+#container #header .main .menu .search{
+    width: 55%;
+    border: 3px solid green;
+    
+}
+
+#container #header .main .menu .search .search-box{
+    width: 350px;
+    height: 10px;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+}
+
+
+
+ #container #header .main .menu .icon1{
+    width: 60%;
+    height: 40px;
+    border: 3px solid green;
+    margin-top: 10px;
+
+}
+#header .main .menu .icon1 .choose{
+    width: 27%;
+height: 35px;
+float:left; 
+    line-height: 10px;
+    border: 3px solid blue;
+    
+}
+#header .choose .choose1{
+    width: 100%;
+    padding: 7px;
+    height: 35px;
+    font-size: 15px;
+   
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block; 
+    background: rgb(177, 177, 117);
+    font-weight: bold;
+    
+}
+ #header .main .menu .icon1 .select{
+    width: 20%;
+height: 35px;
+float:right; 
+    line-height: 10px;
+    border: 3px solid blue;
+}
+#header .select .select1{
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block; 
+     background: rgb(177, 177, 117);
+    font-weight: bold;
+}
+#header .main .menu .icon1 ul {
+    float: left;
+list-style: none;
+
+   
+}
+#header .main .menu .icon1 ul li{
+line-height: 40px;
+padding: 0px 30px;
+float: left;
+font-size: 110%;
+font-weight: bold;
+
+}
+#container #header .main .menu .icon1 ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+#header .menu .reg{
+    width: 40%;
+    height: 95px;
+    border: 2px solid green;
+    float: right;
+    line-height: 20%;
+    margin-top: -75px
+}
+#header .menu .reg .btn{
+    float: left;
+    border:1px solid white;
+    background-color: rgb(171, 171, 116);
+ font-weight: bold;
+}
+#header .menu .reg .btn:hover{
+    background: blue;
+}
+#header .menu .reg .btn1{
+    width: 25%;
+    height: 5.5vh;
+    float: left;
+    border-radius: 5px;
+    background: rgb(171, 171, 116);
+    border:1px solid white;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#header .menu .reg .btn1:hover{
+    background: blue;
+}
+#video{
+    width: 80%;
+    min-height: 80vh;
+   margin: auto;
+ margin-top: 25px;
+    border: 3px solid red;
+}
+#footer{
+    width: 100%;
+    height: 70vh;
+    border: 2px solid green;
+    margin-top: 20px;
+    background: rgb(36, 33, 33);
+}
+#footer .inner{
+    width: 90%;
+    height: 60vh;
+   border: 3px solid black;
+    margin: auto;
+    }
+    #footer .row .box1{
+        border: 2px solid yellow;
+        width: 7%;
+        height: 12vh;
+        margin-left: 15px;
+    }
+    #footer .row .box1 img{
+        width: 130%;
+        height: 80px;
+        border-radius: 100%;
+        float: left;
+    }
+    #footer .row .box2{
+        border: 2px solid blue;
+         height: 12vh;
+width: 20%;
+    }
+    #footer .row .box5{
+        border: 2px solid blue;
+         height: 12vh;
+width: 20%;
+    }
+      #footer .row .box3{
+        border: 2px solid yellow;
+        width: 27%;
+        height: 20vh;
+        margin-left: 15px;
+        
+      }
+       #footer .row .box4{
+        border: 2px solid yellow;
+        width: 27%;
+        height: 9vh;
+        margin-left: 15px;
+        margin-top: -60px;
+      
+      }
+       #footer .row .box4 ul li{
+       float: left;
+       width: 60px;
+        list-style: none;
+       }
+       #footer .row .box4 ul li a{
+color: white;
+ text-decoration: none;
+       }
+        #footer .row .box4 ul li a:hover{
+            color: grey;
+        }
+        #footer .row .box6{
+         border: 2px solid yellow;
+        width: 20%;
+        height: 28vh;
+        }
+      #footer .row .box6 ul li {
+        height: 30px;
+      
+       
+        color: rgb(217, 203, 203);
+      }
+      #footer .row .box6 ul li a{
+        color: white;
+         text-decoration: none;
+      }
+      #footer .row .box6 ul li a:hover{
+color: gray;
+      }
+      #caption{
+        width:30%;
+        height: 45vh;
+        float: right;
+       margin-top: -280px;
+        border: 2px solid white;
+      }
+      #caption .write{
+        width: 30%;
+      }
+.gallery img {
+    width: 250px; /* or desired uniform width */
+    height: 150px; /* or desired uniform height */
+    object-fit: cover; /* keeps aspect ratio while filling the area */
+    margin: 10px; /* optional spacing */
+}
+#about {
+  width: 60%;        /* or any fixed width */
+  margin: 0 auto;    /* centers the block element horizontally */
+  text-align: center; /* centers the text inside */
+}

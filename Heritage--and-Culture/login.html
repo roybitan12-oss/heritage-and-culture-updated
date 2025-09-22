@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+  </head>
+  <body bgcolor="#1e90ff">
+    
+
+   
+        <table bgcolor="white" align="center" border="1"width="28%" height="500px">
+            <tr>
+    <td align="center">  <h1>Login</h1>
+
+      
+      <form action="/login" method="post">
+        <fieldset>
+          <legend>Account</legend>
+
+          <label for="email">Email</label><br />
+          <input id="email" name="email" type="email" placeholder="you@example.com" required /><br /><br />
+
+          <label for="password">Password</label><br />
+          <input id="password" name="password" type="password" minlength="6" placeholder="Enter your password" required /><br /><br />
+
+          <label>
+            <input type="checkbox" name="remember" /> Remember me
+          </label><br /><br />
+
+          <button type="submit">Sign in</button>
+          <button type="reset">Clear</button>
+        </fieldset>
+      </form>
+
+      <p><a href="/forgot">Forgot password?</a></p>
+      <p>New here? <a href="/signup">Create an account</a></p>
+      <p><a href="index.html"> Back</a></p></td>
+      </tr>
+</table>
+     
+   
+   
+  </body>
+</html>
